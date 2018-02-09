@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 Random randomico = new Random();
                 int numeroAleatorio = randomico.nextInt(10);
 
-                    id_Resultado.setText("Botao funcionando");
+                    id_Resultado.setText("Número gerado "+numeroAleatorio);
             }
         });
     }
