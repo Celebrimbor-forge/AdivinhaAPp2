@@ -9,6 +9,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView id_Resultado;
+    private int aa;
     private Button id_Botao;
 
     @Override
